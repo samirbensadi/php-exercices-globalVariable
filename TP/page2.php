@@ -26,7 +26,7 @@ $_SESSION['film'] = $_POST['film'];
 			"<?php echo $_SESSION['film']; ?>"<br><br>
 
 		</p>
-		<form action="index.php">
+		<form action="index.html">
 			<input id="retour" type="submit" name="Retour" value="Retour">
 		</form>
 	</section>
