@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<title>TP</title>
+	</head>
+
+	<body>
+<h1>Remplissez le formulaire :</h1>
+	<section>
+		<form action="page2.php" method="post">
+			<p>
+				<input id="nom" type="text" name="nom" placeholder="nom"><br>
+
+				<select name="pays" id="pays">
+					<option value="france">France</option>
+					<option value="USA">US</option>
+					<option value="le Mordor">Mordor</option>
+					<option value="Corruscent">Corruscent</option>
+				</select><br>
+
+				<input id="masculin" type="radio" name="sexe" value="masculin"><label for="masculin"> Masculin</label><br>
+				<input id="feminin" type="radio" name="sexe" value="feminin"><label for="feminin"> Feminin</label><br>
+				
+				<input id="film" type="text" name="film" placeholder="Ton film préféré"><br>
+				<input id="btn" type="submit" name="Valider">
+			</p>
+		</form>
+	</section>
+
+	</body>
+</html>
